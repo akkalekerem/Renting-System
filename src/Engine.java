@@ -24,6 +24,6 @@ public class Engine {
 
     @Override
     public String toString() {
-        return horsepower + "HP " + type;
+        return horsepower + "HP  &" + type;
     }
 }

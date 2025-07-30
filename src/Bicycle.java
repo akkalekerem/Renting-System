@@ -14,6 +14,8 @@ public class Bicycle extends Vehicle {
         this.gearCount = gearCount;
     }
 
+
+    //Vehicle olduğu için start & stop komutlarını Override etmek zorundayız.
     @Override
     public void start() {
         System.out.println(getBrand() + " bisikleti yola çıktı.");
